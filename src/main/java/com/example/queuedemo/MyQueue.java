@@ -5,9 +5,9 @@ import com.google.common.collect.ImmutableList;
 /**
  * Implementation of an immutable Queue.
  * Empty queue: represented by empty "data" field. head() will return null.
- *
- *
- * @param <T>
+ * EnQueue operation: returns new MyQueue object, having added the requested object
+ * DeQueue operation: after removing oldest element form the queue, returns new MyQueue object,
+ * @param <T> Generic Object
  */
 public class MyQueue<T> implements Queue<T> {
 
